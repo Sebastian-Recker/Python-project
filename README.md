@@ -1,2 +1,3 @@
 # Python-project
-Simple python experiment
+
+Added existing Python code to project
