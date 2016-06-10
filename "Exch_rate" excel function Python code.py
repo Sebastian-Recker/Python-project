@@ -12,5 +12,5 @@ def exch_rate(from_c,to_c):
     # Here we store the result in the "result" variable
     result = url.read()
     # Here we send the exchange rate to Excel, [2:] removes the two first characters and [:-1] removes the last one, this is done for formating purposes
-    # str() is used to convert the exchange rate to a string, else Excel will not recognize the value.
+    # str() is used to convert the exchange rate from a JSON to a string, without it Excel will not recognize the returned value.
     return (str(result)[2:])[:-1]
