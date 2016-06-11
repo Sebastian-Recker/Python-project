@@ -7,7 +7,7 @@ import json
 
 #This defines a new Excel function  
 @xw.func
-# This defines the name of the Excel function and the two variables wich will Have to be entered by the Excel user
+# This defines the name of the Excel function and the three variables wich will have to be entered by the Excel user
 def exch(date,from_c,to_c):
     # Here we fetch the conversion rate between the two user specified currencies
     url = urllib.request.urlopen("http://api.fixer.io/%s?symbols=%s,%s"%(date,from_c,to_c))
