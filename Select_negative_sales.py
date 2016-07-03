@@ -1,4 +1,6 @@
 
+#This python script picks out items with a negative gross margin, thus allowing calculation of total negative gross margin.
+#It is usefull as a template for conditional column calculation.
 import pandas as pd
 
 Excel_file = pd.ExcelFile("Verkäufe_je_Artikel.xlsx")
